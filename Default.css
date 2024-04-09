@@ -23,10 +23,13 @@ hr{
     color:blue;
     height: 10px;
     width: 50%;
+    
+.container {
+  position: relative; /* This is important for absolute positioning to work */
 }
 
-#test1{
-    position: absolute; top: 100px;
-    background-color: palegreen;
-    padding: 50px;
+.top-right-img {
+  position: absolute;
+  top: 0;
+  right: 0;
 }
