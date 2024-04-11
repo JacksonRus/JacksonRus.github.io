@@ -28,6 +28,13 @@ hr{
   position: relative; /* This is important for absolute positioning to work */
 }
 
+
+.right-column {
+  /* Define styles for the right column */
+  padding: 20px; /* Add padding for spacing */
+}
+
+
 .top-right-img {
   position: absolute;
   top: 0;
